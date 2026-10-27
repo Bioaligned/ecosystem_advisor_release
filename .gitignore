@@ -1,0 +1,9 @@
+logs/
+__pycache__/
+*.pyc
+.env*
+data/scenarios/
+results/**/*_stew.jsonl
+results/**/judge/
+results/**/judge2/
+results/**/judge_subset/

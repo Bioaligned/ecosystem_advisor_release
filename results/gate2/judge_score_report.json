@@ -1,0 +1,8 @@
+{
+ "n_scored": 428,
+ "n_missing_labels": 0,
+ "dup_pairs": 42,
+ "dup_stance_r": 0.9831051456811662,
+ "dup_stance_mad": 0.02752799548416513,
+ "dup_netrec_agree": 0.8571428571428571
+}

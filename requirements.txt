@@ -1,0 +1,7 @@
+modal>=1.0
+transformers>=4.57
+torch
+numpy
+scipy
+statsmodels
+matplotlib
