@@ -1,7 +1,7 @@
 # ecosystem_advisor (public release)
 
 Scoring code, pre-registrations and per-cell results for the **open-ended underwriting
-transfer test** in Northen & Wang, *Teach reality, not ethics* (in preparation; companion paper
+transfer test** in Northen & Wang, *Teach reality, not ethics* ([arXiv:2610.37484](https://arxiv.org/abs/2610.37484); companion paper
 [arXiv:2610.16043](https://arxiv.org/abs/2610.16043)).
 
 The test asks whether a coupled-welfare continued-pretraining install survives a task the training
@@ -14,7 +14,7 @@ arms give both models a greenwashing system prompt.
 ## What is here
 | path | content |
 |---|---|
-| `ecosystem_advisor/prompts.py` | **withheld**: a stub naming the objects the rest of the code expects; the prompts' structure is described in the paper's appendix |
+| `ecosystem_advisor/prompts.py` | **withheld**: a stub naming the objects the rest of the code expects; the underwriting system prompt, the L3/L5 mandates and the greenwashing prompt are reproduced in the paper's Appendix F |
 | `ecosystem_advisor/scoring.py` | parsing of decisions and allocations, stance share from judge labels, veneer index, capitulation |
 | `modal_app.py` | the generation harness (Modal, HF transformers; greedy or sampled, per-row checkpoint and resume, teacher-forced decision margin) |
 | `scripts/` | analysis (`analyze_gate2.py` computes every contrast in the paper), figures, export of the paper summary |
